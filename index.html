@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jquery悬停时的图片提示</title>
+<script src="jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="tooltip.js" type="text/javascript"></script>
+<style type="text/css">
+body { margin: 0; background: #fff; font: 80% Arial, Helvetica, sans-serif; color: #555; line-height: 180%; }
+img { border: none; }
+ul, li { margin: 0; padding: 0; }
+li { list-style: none; float: left; display: inline; margin-right: 10px; border: 1px solid #AAAAAA; }
+
+/* tooltip */
+#tooltip { position: absolute; border: 1px solid #ccc; background: #333; padding: 2px; display: none; color: #fff; padding: 10px; }
+</style>
+
+</head>
+<body>
+<h3>jquery经过图片显示效果：把你的鼠标放在图片上试试：</h3>
+<ul>
+    <li>
+       <a href="javascript:"  imghref="images/2.png" class="tooltip" title="imghref放经过显示的图片路径0" name="这是标题0">
+
+            <div class="product-show_t">
+
+                <img src="images/0.jpg" width="212" height="200" alt="0" />
+
+            </div>
+        </a>
+    </li>
+    <li>
+       <a href="javascript:"  imghref="images/1.jpg" class="tooltip" title="这是说明1" name="这是标题1">
+
+            <div class="product-show_t">
+
+                <img src="images/1.jpg" width="212" height="200" alt="0" />
+
+            </div>
+        </a>
+    </li>
+    <li>
+       <a href="javascript:"  imghref="images/2.png" class="tooltip" title="这是说明2" name="这是标题2">
+
+            <div class="product-show_t">
+
+                <img src="images/2.png" width="212" height="200" alt="0" />
+
+            </div>
+        </a>
+    </li>
+
+</ul>
+</body>
+</html>
